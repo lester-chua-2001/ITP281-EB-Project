@@ -1,0 +1,48 @@
+﻿ .mydatagrid
+{
+    width: 80%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+.header
+{
+    background-color: #646464;
+    font-family: Arial;
+    color: white;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.rows
+{
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    min-height: 25px;
+    text-align: left;
+    border: none 0px transparent;
+}
+.rows:hover
+{
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    text-align: center;
+}
+.selectedrow
+{
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mydatagrid td
+{
+    padding: 5px;
+}
+.mydatagrid th
+{
+    padding: 5px;
+}
